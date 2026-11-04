@@ -1,0 +1,19 @@
+{
+ "n": 20,
+ "numbers": 68,
+ "unsupported": [],
+ "action_ok": 20,
+ "type_ok": 20,
+ "conflict": [
+  [
+   13,
+   true
+  ],
+  [
+   14,
+   true
+  ]
+ ],
+ "len_max": 132,
+ "len_mean": 94.1
+}

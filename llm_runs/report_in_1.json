@@ -1,0 +1,356 @@
+[
+ {
+  "case": 11,
+  "messages": {
+   "perceive": {
+    "device": "M-11",
+    "cycle": 6000,
+    "type": "M",
+    "Ta_K": 300.4,
+    "Tp_K": 310.2,
+    "n_rpm": 1671,
+    "M_Nm": 30.5,
+    "wear_min": 234,
+    "dT_K": 9.8,
+    "P_kW": 5.34,
+    "W_minNm": 7137
+   },
+   "mechanism": {
+    "margin_dT_K": 0.62,
+    "margin_n_rpm": 264.4,
+    "margin_P_low_kW": 1.98,
+    "margin_P_high_kW": 2.84,
+    "margin_W_kminNm": 5.09,
+    "margin_wear_min": -17.6,
+    "violations": []
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "更换刀具",
+    "basis": "刀具磨损已达寿命阈值"
+   }
+  }
+ },
+ {
+  "case": 12,
+  "messages": {
+   "perceive": {
+    "device": "M-12",
+    "cycle": 5825,
+    "type": "L",
+    "Ta_K": 301.2,
+    "Tp_K": 311.0,
+    "n_rpm": 1596,
+    "M_Nm": 37.2,
+    "wear_min": 219,
+    "dT_K": 9.8,
+    "P_kW": 6.22,
+    "W_minNm": 8147
+   },
+   "mechanism": {
+    "margin_dT_K": 0.62,
+    "margin_n_rpm": 189.4,
+    "margin_P_low_kW": 2.87,
+    "margin_P_high_kW": 1.96,
+    "margin_W_kminNm": 3.9,
+    "margin_wear_min": -2.6,
+    "violations": []
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "更换刀具",
+    "basis": "刀具磨损已达寿命阈值"
+   }
+  }
+ },
+ {
+  "case": 13,
+  "messages": {
+   "perceive": {
+    "device": "M-13",
+    "cycle": 7701,
+    "type": "M",
+    "Ta_K": 300.7,
+    "Tp_K": 311.6,
+    "n_rpm": 1348,
+    "M_Nm": 62.5,
+    "wear_min": 36,
+    "dT_K": 10.9,
+    "P_kW": 8.82,
+    "W_minNm": 2250
+   },
+   "mechanism": {
+    "margin_dT_K": 1.72,
+    "margin_n_rpm": -58.6,
+    "margin_P_low_kW": 5.47,
+    "margin_P_high_kW": -0.65,
+    "margin_W_kminNm": 9.98,
+    "margin_wear_min": 180.4,
+    "violations": [
+     "PWF"
+    ]
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "继续运行",
+    "basis": "未诊断出故障且刀具寿命裕度充足"
+   }
+  }
+ },
+ {
+  "case": 14,
+  "messages": {
+   "perceive": {
+    "device": "M-14",
+    "cycle": 1774,
+    "type": "L",
+    "Ta_K": 298.5,
+    "Tp_K": 308.0,
+    "n_rpm": 1384,
+    "M_Nm": 59.5,
+    "wear_min": 27,
+    "dT_K": 9.5,
+    "P_kW": 8.62,
+    "W_minNm": 1606
+   },
+   "mechanism": {
+    "margin_dT_K": 0.32,
+    "margin_n_rpm": -22.6,
+    "margin_P_low_kW": 5.27,
+    "margin_P_high_kW": -0.45,
+    "margin_W_kminNm": 10.44,
+    "margin_wear_min": 189.4,
+    "violations": [
+     "PWF"
+    ]
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "继续运行",
+    "basis": "未诊断出故障且刀具寿命裕度充足"
+   }
+  }
+ },
+ {
+  "case": 15,
+  "messages": {
+   "perceive": {
+    "device": "M-15",
+    "cycle": 8326,
+    "type": "M",
+    "Ta_K": 298.7,
+    "Tp_K": 309.5,
+    "n_rpm": 1500,
+    "M_Nm": 38.8,
+    "wear_min": 116,
+    "dT_K": 10.8,
+    "P_kW": 6.09,
+    "W_minNm": 4501
+   },
+   "mechanism": {
+    "margin_dT_K": 1.62,
+    "margin_n_rpm": 93.4,
+    "margin_P_low_kW": 2.74,
+    "margin_P_high_kW": 2.08,
+    "margin_W_kminNm": 7.73,
+    "margin_wear_min": 100.4,
+    "violations": []
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "继续运行",
+    "basis": "未诊断出故障且刀具寿命裕度充足"
+   }
+  }
+ },
+ {
+  "case": 16,
+  "messages": {
+   "perceive": {
+    "device": "M-16",
+    "cycle": 8540,
+    "type": "L",
+    "Ta_K": 298.5,
+    "Tp_K": 309.4,
+    "n_rpm": 1517,
+    "M_Nm": 40.2,
+    "wear_min": 45,
+    "dT_K": 10.9,
+    "P_kW": 6.39,
+    "W_minNm": 1809
+   },
+   "mechanism": {
+    "margin_dT_K": 1.72,
+    "margin_n_rpm": 110.4,
+    "margin_P_low_kW": 3.03,
+    "margin_P_high_kW": 1.79,
+    "margin_W_kminNm": 10.23,
+    "margin_wear_min": 171.4,
+    "violations": []
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "继续运行",
+    "basis": "未诊断出故障且刀具寿命裕度充足"
+   }
+  }
+ },
+ {
+  "case": 17,
+  "messages": {
+   "perceive": {
+    "device": "M-17",
+    "cycle": 7344,
+    "type": "L",
+    "Ta_K": 299.6,
+    "Tp_K": 310.2,
+    "n_rpm": 1468,
+    "M_Nm": 48.0,
+    "wear_min": 9,
+    "dT_K": 10.6,
+    "P_kW": 7.38,
+    "W_minNm": 432
+   },
+   "mechanism": {
+    "margin_dT_K": 1.42,
+    "margin_n_rpm": 61.4,
+    "margin_P_low_kW": 4.03,
+    "margin_P_high_kW": 0.8,
+    "margin_W_kminNm": 11.61,
+    "margin_wear_min": 207.4,
+    "violations": []
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "继续运行",
+    "basis": "未诊断出故障且刀具寿命裕度充足"
+   }
+  }
+ },
+ {
+  "case": 18,
+  "messages": {
+   "perceive": {
+    "device": "M-18",
+    "cycle": 3542,
+    "type": "L",
+    "Ta_K": 301.8,
+    "Tp_K": 310.8,
+    "n_rpm": 1546,
+    "M_Nm": 43.4,
+    "wear_min": 29,
+    "dT_K": 9.0,
+    "P_kW": 7.03,
+    "W_minNm": 1259
+   },
+   "mechanism": {
+    "margin_dT_K": -0.18,
+    "margin_n_rpm": 139.4,
+    "margin_P_low_kW": 3.67,
+    "margin_P_high_kW": 1.15,
+    "margin_W_kminNm": 10.78,
+    "margin_wear_min": 187.4,
+    "violations": []
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "继续运行",
+    "basis": "未诊断出故障且刀具寿命裕度充足"
+   }
+  }
+ },
+ {
+  "case": 19,
+  "messages": {
+   "perceive": {
+    "device": "M-19",
+    "cycle": 5612,
+    "type": "M",
+    "Ta_K": 303.0,
+    "Tp_K": 312.3,
+    "n_rpm": 1674,
+    "M_Nm": 29.5,
+    "wear_min": 109,
+    "dT_K": 9.3,
+    "P_kW": 5.17,
+    "W_minNm": 3216
+   },
+   "mechanism": {
+    "margin_dT_K": 0.12,
+    "margin_n_rpm": 267.4,
+    "margin_P_low_kW": 1.82,
+    "margin_P_high_kW": 3.01,
+    "margin_W_kminNm": 9.02,
+    "margin_wear_min": 107.4,
+    "violations": []
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "继续运行",
+    "basis": "未诊断出故障且刀具寿命裕度充足"
+   }
+  }
+ },
+ {
+  "case": 20,
+  "messages": {
+   "perceive": {
+    "device": "M-20",
+    "cycle": 3746,
+    "type": "L",
+    "Ta_K": 302.6,
+    "Tp_K": 311.4,
+    "n_rpm": 1738,
+    "M_Nm": 25.8,
+    "wear_min": 128,
+    "dT_K": 8.8,
+    "P_kW": 4.7,
+    "W_minNm": 3302
+   },
+   "mechanism": {
+    "margin_dT_K": -0.38,
+    "margin_n_rpm": 331.4,
+    "margin_P_low_kW": 1.34,
+    "margin_P_high_kW": 3.48,
+    "margin_W_kminNm": 8.74,
+    "margin_wear_min": 88.4,
+    "violations": []
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "继续运行",
+    "basis": "未诊断出故障且刀具寿命裕度充足"
+   }
+  }
+ }
+]

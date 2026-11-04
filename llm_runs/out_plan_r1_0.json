@@ -1,0 +1,60 @@
+{
+"1": [
+{"step":1,"agent":"perceive","args":{"device_id":"M-03","start":"2026-10-12 14:00","end":"2026-10-12 16:00"},"depends_on":[]},
+{"step":2,"agent":"mechanism","args":{"records":"step1.records"},"depends_on":[1]},
+{"step":3,"agent":"diagnose","args":{"records":"step1.records","evidence":"step2.evidence"},"depends_on":[1,2]},
+{"step":4,"agent":"decide","args":{"diagnosis":"step3.diagnosis","evidence":"step2.evidence"},"depends_on":[2,3]}
+],
+"2": [
+{"step":1,"agent":"perceive","args":{"device_id":"M-07","start":"2026-10-15 08:00","end":"2026-10-15 12:00"},"depends_on":[]},
+{"step":2,"agent":"mechanism","args":{"records":"step1.records"},"depends_on":[1]},
+{"step":3,"agent":"diagnose","args":{"records":"step1.records","evidence":"step2.evidence"},"depends_on":[1,2]},
+{"step":4,"agent":"decide","args":{"diagnosis":"step3.diagnosis","evidence":"step2.evidence"},"depends_on":[2,3]}
+],
+"3": [
+{"step":1,"agent":"perceive","args":{"device_id":"M-11","start":"2026-10-20 06:00","end":"2026-10-20 14:00"},"depends_on":[]},
+{"step":2,"agent":"mechanism","args":{"records":"step1.records"},"depends_on":[1]},
+{"step":3,"agent":"diagnose","args":{"records":"step1.records","evidence":"step2.evidence"},"depends_on":[1,2]},
+{"step":4,"agent":"decide","args":{"diagnosis":"step3.diagnosis","evidence":"step2.evidence"},"depends_on":[2,3]}
+],
+"4": [
+{"step":1,"agent":"perceive","args":{"device_id":"M-02","start":"2026-10-18 22:00","end":"2026-10-19 06:00"},"depends_on":[]},
+{"step":2,"agent":"mechanism","args":{"records":"step1.records"},"depends_on":[1]},
+{"step":3,"agent":"diagnose","args":{"records":"step1.records","evidence":"step2.evidence"},"depends_on":[1,2]},
+{"step":4,"agent":"decide","args":{"diagnosis":"step3.diagnosis","evidence":"step2.evidence"},"depends_on":[2,3]}
+],
+"5": [
+{"step":1,"agent":"perceive","args":{"device_id":"M-15","start":"2026-10-21 09:30","end":"2026-10-21 10:30"},"depends_on":[]},
+{"step":2,"agent":"mechanism","args":{"records":"step1.records"},"depends_on":[1]},
+{"step":3,"agent":"diagnose","args":{"records":"step1.records","evidence":"step2.evidence"},"depends_on":[1,2]},
+{"step":4,"agent":"decide","args":{"diagnosis":"step3.diagnosis","evidence":"step2.evidence"},"depends_on":[2,3]}
+],
+"6": [
+{"step":1,"agent":"perceive","args":{"device_id":"M-09","start":"2026-10-19 13:00","end":"2026-10-19 17:00"},"depends_on":[]},
+{"step":2,"agent":"mechanism","args":{"records":"step1.records"},"depends_on":[1]},
+{"step":3,"agent":"diagnose","args":{"records":"step1.records","evidence":"step2.evidence"},"depends_on":[1,2]},
+{"step":4,"agent":"decide","args":{"diagnosis":"step3.diagnosis","evidence":"step2.evidence"},"depends_on":[2,3]}
+],
+"7": [
+{"step":1,"agent":"perceive","args":{"device_id":"M-04","start":"2026-10-16 00:00","end":"2026-10-17 00:00"},"depends_on":[]},
+{"step":2,"agent":"mechanism","args":{"records":"step1.records"},"depends_on":[1]},
+{"step":3,"agent":"diagnose","args":{"records":"step1.records","evidence":"step2.evidence"},"depends_on":[1,2]},
+{"step":4,"agent":"decide","args":{"diagnosis":"step3.diagnosis","evidence":"step2.evidence"},"depends_on":[2,3]}
+],
+"8": [
+{"step":1,"agent":"perceive","args":{"device_id":"M-12","start":"2026-10-22 10:00","end":"2026-10-22 18:00"},"depends_on":[]},
+{"step":2,"agent":"mechanism","args":{"records":"step1.records"},"depends_on":[1]},
+{"step":3,"agent":"diagnose","args":{"records":"step1.records","evidence":"step2.evidence"},"depends_on":[1,2]},
+{"step":4,"agent":"decide","args":{"diagnosis":"step3.diagnosis","evidence":"step2.evidence"},"depends_on":[2,3]}
+],
+"9": [
+{"step":1,"agent":"perceive","args":{"device_id":"M-05","start":"2026-10-14 15:00","end":"2026-10-14 16:00"},"depends_on":[]},
+{"step":2,"agent":"mechanism","args":{"records":"step1.records"},"depends_on":[1]},
+{"step":3,"agent":"diagnose","args":{"records":"step1.records","evidence":"step2.evidence"},"depends_on":[1,2]}
+],
+"10": [
+{"step":1,"agent":"perceive","args":{"device_id":"M-08","start":"2026-10-13 08:00","end":"2026-10-13 09:00"},"depends_on":[]},
+{"step":2,"agent":"mechanism","args":{"records":"step1.records"},"depends_on":[1]},
+{"step":3,"agent":"diagnose","args":{"records":"step1.records","evidence":"step2.evidence"},"depends_on":[1,2]}
+]
+}

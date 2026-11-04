@@ -1,0 +1,30 @@
+{
+ "n": 60,
+ "valid": 60,
+ "correct": 60,
+ "consistent_requests": 20,
+ "bykind": {
+  "full": [
+   24,
+   24,
+   24
+  ],
+  "diag": [
+   15,
+   15,
+   15
+  ],
+  "tool": [
+   9,
+   9,
+   9
+  ],
+  "ask": [
+   12,
+   12,
+   12
+  ]
+ },
+ "extra_decide_in_diag": 0,
+ "errors": []
+}

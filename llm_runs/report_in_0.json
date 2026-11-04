@@ -1,0 +1,384 @@
+[
+ {
+  "case": 1,
+  "messages": {
+   "perceive": {
+    "device": "M-01",
+    "cycle": 1163,
+    "type": "L",
+    "Ta_K": 296.9,
+    "Tp_K": 307.8,
+    "n_rpm": 1400,
+    "M_Nm": 57.1,
+    "wear_min": 202,
+    "dT_K": 10.9,
+    "P_kW": 8.37,
+    "W_minNm": 11534
+   },
+   "mechanism": {
+    "margin_dT_K": 1.72,
+    "margin_n_rpm": -6.6,
+    "margin_P_low_kW": 5.02,
+    "margin_P_high_kW": -0.19,
+    "margin_W_kminNm": 0.51,
+    "margin_wear_min": 14.4,
+    "violations": [
+     "PWF"
+    ]
+   },
+   "diagnose": {
+    "fault": true,
+    "types": [
+     "OSF"
+    ]
+   },
+   "decide": {
+    "action": "计划检修",
+    "basis": "诊断为故障"
+   }
+  }
+ },
+ {
+  "case": 2,
+  "messages": {
+   "perceive": {
+    "device": "M-02",
+    "cycle": 195,
+    "type": "M",
+    "Ta_K": 298.2,
+    "Tp_K": 308.5,
+    "n_rpm": 2678,
+    "M_Nm": 10.7,
+    "wear_min": 86,
+    "dT_K": 10.3,
+    "P_kW": 3.0,
+    "W_minNm": 920
+   },
+   "mechanism": {
+    "margin_dT_K": 1.12,
+    "margin_n_rpm": 1271.4,
+    "margin_P_low_kW": -0.35,
+    "margin_P_high_kW": 5.18,
+    "margin_W_kminNm": 11.31,
+    "margin_wear_min": 130.4,
+    "violations": [
+     "PWF"
+    ]
+   },
+   "diagnose": {
+    "fault": true,
+    "types": [
+     "PWF"
+    ]
+   },
+   "decide": {
+    "action": "计划检修",
+    "basis": "诊断为故障"
+   }
+  }
+ },
+ {
+  "case": 3,
+  "messages": {
+   "perceive": {
+    "device": "M-03",
+    "cycle": 4721,
+    "type": "M",
+    "Ta_K": 303.4,
+    "Tp_K": 311.7,
+    "n_rpm": 1353,
+    "M_Nm": 44.1,
+    "wear_min": 192,
+    "dT_K": 8.3,
+    "P_kW": 6.25,
+    "W_minNm": 8467
+   },
+   "mechanism": {
+    "margin_dT_K": -0.88,
+    "margin_n_rpm": -53.6,
+    "margin_P_low_kW": 2.9,
+    "margin_P_high_kW": 1.93,
+    "margin_W_kminNm": 3.76,
+    "margin_wear_min": 24.4,
+    "violations": [
+     "HDF"
+    ]
+   },
+   "diagnose": {
+    "fault": true,
+    "types": [
+     "HDF"
+    ]
+   },
+   "decide": {
+    "action": "计划检修",
+    "basis": "诊断为故障"
+   }
+  }
+ },
+ {
+  "case": 4,
+  "messages": {
+   "perceive": {
+    "device": "M-04",
+    "cycle": 5707,
+    "type": "L",
+    "Ta_K": 302.4,
+    "Tp_K": 311.9,
+    "n_rpm": 1290,
+    "M_Nm": 70.0,
+    "wear_min": 139,
+    "dT_K": 9.5,
+    "P_kW": 9.46,
+    "W_minNm": 9730
+   },
+   "mechanism": {
+    "margin_dT_K": 0.32,
+    "margin_n_rpm": -116.6,
+    "margin_P_low_kW": 6.1,
+    "margin_P_high_kW": -1.28,
+    "margin_W_kminNm": 2.31,
+    "margin_wear_min": 77.4,
+    "violations": [
+     "PWF"
+    ]
+   },
+   "diagnose": {
+    "fault": true,
+    "types": [
+     "PWF"
+    ]
+   },
+   "decide": {
+    "action": "计划检修",
+    "basis": "诊断为故障"
+   }
+  }
+ },
+ {
+  "case": 5,
+  "messages": {
+   "perceive": {
+    "device": "M-05",
+    "cycle": 1017,
+    "type": "M",
+    "Ta_K": 296.3,
+    "Tp_K": 307.2,
+    "n_rpm": 1319,
+    "M_Nm": 68.3,
+    "wear_min": 24,
+    "dT_K": 10.9,
+    "P_kW": 9.43,
+    "W_minNm": 1639
+   },
+   "mechanism": {
+    "margin_dT_K": 1.72,
+    "margin_n_rpm": -87.6,
+    "margin_P_low_kW": 6.08,
+    "margin_P_high_kW": -1.26,
+    "margin_W_kminNm": 10.59,
+    "margin_wear_min": 192.4,
+    "violations": [
+     "PWF"
+    ]
+   },
+   "diagnose": {
+    "fault": true,
+    "types": [
+     "PWF"
+    ]
+   },
+   "decide": {
+    "action": "计划检修",
+    "basis": "诊断为故障"
+   }
+  }
+ },
+ {
+  "case": 6,
+  "messages": {
+   "perceive": {
+    "device": "M-06",
+    "cycle": 747,
+    "type": "L",
+    "Ta_K": 296.8,
+    "Tp_K": 308.1,
+    "n_rpm": 1289,
+    "M_Nm": 62.0,
+    "wear_min": 199,
+    "dT_K": 11.3,
+    "P_kW": 8.37,
+    "W_minNm": 12338
+   },
+   "mechanism": {
+    "margin_dT_K": 2.12,
+    "margin_n_rpm": -117.6,
+    "margin_P_low_kW": 5.02,
+    "margin_P_high_kW": -0.19,
+    "margin_W_kminNm": -0.3,
+    "margin_wear_min": 17.4,
+    "violations": [
+     "PWF",
+     "OSF"
+    ]
+   },
+   "diagnose": {
+    "fault": true,
+    "types": [
+     "OSF"
+    ]
+   },
+   "decide": {
+    "action": "计划检修",
+    "basis": "诊断为故障"
+   }
+  }
+ },
+ {
+  "case": 7,
+  "messages": {
+   "perceive": {
+    "device": "M-07",
+    "cycle": 2859,
+    "type": "L",
+    "Ta_K": 300.5,
+    "Tp_K": 309.3,
+    "n_rpm": 1417,
+    "M_Nm": 51.5,
+    "wear_min": 231,
+    "dT_K": 8.8,
+    "P_kW": 7.64,
+    "W_minNm": 11896
+   },
+   "mechanism": {
+    "margin_dT_K": -0.38,
+    "margin_n_rpm": 10.4,
+    "margin_P_low_kW": 4.29,
+    "margin_P_high_kW": 0.54,
+    "margin_W_kminNm": 0.15,
+    "margin_wear_min": -14.6,
+    "violations": []
+   },
+   "diagnose": {
+    "fault": true,
+    "types": [
+     "OSF"
+    ]
+   },
+   "decide": {
+    "action": "计划检修",
+    "basis": "诊断为故障"
+   }
+  }
+ },
+ {
+  "case": 8,
+  "messages": {
+   "perceive": {
+    "device": "M-08",
+    "cycle": 7594,
+    "type": "L",
+    "Ta_K": 300.5,
+    "Tp_K": 311.2,
+    "n_rpm": 1270,
+    "M_Nm": 67.5,
+    "wear_min": 208,
+    "dT_K": 10.7,
+    "P_kW": 8.98,
+    "W_minNm": 14040
+   },
+   "mechanism": {
+    "margin_dT_K": 1.52,
+    "margin_n_rpm": -136.6,
+    "margin_P_low_kW": 5.62,
+    "margin_P_high_kW": -0.8,
+    "margin_W_kminNm": -2.0,
+    "margin_wear_min": 8.4,
+    "violations": [
+     "PWF",
+     "OSF"
+    ]
+   },
+   "diagnose": {
+    "fault": true,
+    "types": [
+     "OSF"
+    ]
+   },
+   "decide": {
+    "action": "计划检修",
+    "basis": "诊断为故障"
+   }
+  }
+ },
+ {
+  "case": 9,
+  "messages": {
+   "perceive": {
+    "device": "M-09",
+    "cycle": 9495,
+    "type": "L",
+    "Ta_K": 299.2,
+    "Tp_K": 309.9,
+    "n_rpm": 1516,
+    "M_Nm": 41.4,
+    "wear_min": 219,
+    "dT_K": 10.7,
+    "P_kW": 6.57,
+    "W_minNm": 9067
+   },
+   "mechanism": {
+    "margin_dT_K": 1.52,
+    "margin_n_rpm": 109.4,
+    "margin_P_low_kW": 3.22,
+    "margin_P_high_kW": 1.6,
+    "margin_W_kminNm": 2.98,
+    "margin_wear_min": -2.6,
+    "violations": []
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "更换刀具",
+    "basis": "刀具磨损已达寿命阈值"
+   }
+  }
+ },
+ {
+  "case": 10,
+  "messages": {
+   "perceive": {
+    "device": "M-10",
+    "cycle": 1335,
+    "type": "L",
+    "Ta_K": 299.0,
+    "Tp_K": 310.4,
+    "n_rpm": 1365,
+    "M_Nm": 49.1,
+    "wear_min": 226,
+    "dT_K": 11.4,
+    "P_kW": 7.02,
+    "W_minNm": 11097
+   },
+   "mechanism": {
+    "margin_dT_K": 2.22,
+    "margin_n_rpm": -41.6,
+    "margin_P_low_kW": 3.67,
+    "margin_P_high_kW": 1.16,
+    "margin_W_kminNm": 0.95,
+    "margin_wear_min": -9.6,
+    "violations": []
+   },
+   "diagnose": {
+    "fault": false,
+    "types": []
+   },
+   "decide": {
+    "action": "更换刀具",
+    "basis": "刀具磨损已达寿命阈值"
+   }
+  }
+ }
+]

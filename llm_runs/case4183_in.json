@@ -1,0 +1,41 @@
+[
+ {
+  "case": 4183,
+  "messages": {
+   "perceive": {
+    "device": "M-01",
+    "cycle": 4183,
+    "type": "L",
+    "Ta_K": 302.4,
+    "Tp_K": 310.7,
+    "n_rpm": 1362,
+    "M_Nm": 54.8,
+    "wear_min": 155,
+    "dT_K": 8.3,
+    "P_kW": 7.82,
+    "W_minNm": 8494
+   },
+   "mechanism": {
+    "margin_dT_K": -0.88,
+    "margin_n_rpm": -44.6,
+    "margin_P_low_kW": 4.46,
+    "margin_P_high_kW": 0.36,
+    "margin_W_kminNm": 3.55,
+    "margin_wear_min": 61.4,
+    "violations": [
+     "HDF"
+    ]
+   },
+   "diagnose": {
+    "fault": true,
+    "types": [
+     "HDF"
+    ]
+   },
+   "decide": {
+    "action": "计划检修",
+    "basis": "诊断为散热故障；刀具磨损未达换刀阈值，暂不换刀"
+   }
+  }
+ }
+]
